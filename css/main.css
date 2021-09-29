@@ -1,0 +1,26 @@
+.jumbotron{
+  background-color: Green;
+  color:: #161717;
+  font-family: serif;
+  padding: 40px;
+}
+.jumbotron h1{
+  text-align: center;
+  font-family: serif;
+}
+.btn{
+  background-color: #3A6BE6;
+  color: #F9F6F5;
+}
+.container{
+  background-color: #E6FEFF;
+  padding: 40px;
+}
+.footer{
+  background-color: #E6FEFF;
+  font-family: serif;
+  margin-top: 10px;
+}
+.footer a{
+  font-size: 25px;
+}
