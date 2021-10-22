@@ -14,6 +14,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Componentes de una PC</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -31,14 +32,58 @@
       </div>
     </nav>
 <div class="jumbotron">
-  <h1>NOSOTROS</h1>
+  <h1>CONTACTO</h1>
   <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page"><a href="./index.html">HOME</a></li>
-        <li class="breadcrumb-item active" aria-current="page">NOSOTROS</li>
+        <li class="breadcrumb-item active"><a href="./index.html">HOME</a></li>
+        <li class="breadcrumb-item active" aria-current="page">CONTACTO</li>
       </ol>
       </nav>
+      <h1>Deja un comentario</h1>
+      <form>
+        <div class="form-row">
+          <div class="input-group mb-3">
+            <span class="input.group.text" id="basic-addon1">Nombre</span>
+            <input type="text" class="form-control" placeholder="Ingrese su nombre(s)"aria-label="nombre" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group">
+            <span class="input.group.text">Apellido paterno y materno</span>
+            <input type="text" aria-label="Apellido paterno" class="form-control" placeholder="Apellido paterno">
+            <input type="text" aria-label="Apellido materno" class="form-control" placeholder="Apellido materno">
+          </div><br>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Email" aria-describedby="basic-addon2">
+            <span class="input.group.text" id="basic-addon2">@example.com</span>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input.group.text" id="basic-addon1">Domicilio:</span>
+            <input type="text" class="form-control" placeholder="Calle Viva la vida 578 Col. southpark" aria-label="apellidom" aria-describedby="basic-addon1">
+          </div>
+          <div class="form-floating">
+            <select class="form-select" id="floatingselect" aria-label="Floating label select example">
+              <option selected>Selecciones una opción</option>
+              <option value="1">Cuernavaca</option>
+              <option value="2">Temixco</option>
+              <option value="3">Cuautla</option>
+              <option value="4">Tepoztlan</option>
+              <option value="5">Jojutal</option>
+            </select>
+            <label for="floatingselect">Municipio</label>
+          </div><br>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">Quiero que me contacten</label>
+          </div><br>
+          <div class="form-floating">
+            <textarea class="form-control" id="floatingtextarea2" style="height: 100px"></textarea>
+            <label for="floatingtextarea2">Comentarios</label>
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
     <div class="d-flex flex-wrap">
       <div class="col-sm">
         <p>Placa madre (o motherboard).</p>
