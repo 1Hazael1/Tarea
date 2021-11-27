@@ -31,37 +31,86 @@
         </ul>
       </div>
     </nav>
-<div class="table-responsive">
-  <table class="table">
-    <thead class="table-dark">
-      <tr>
-        <th scope="col">Nombre del componente</th>
-        <th scope="col">Existencias</th>
-        <th scope="col">Precios</th>
-        <th scope="col">Calificacion</th>
-      </tr>
-      </thead>
-        <tr>
-          <th class="table-primary">motherboard Asus prime b450m-a</th>
-          <th class="table-primary">4 En Stock</th>
-          <th class="table-primary">A cotizacion</th>
-          <th class="table-primary"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-        </tr>
-        <tr>
-          <th class="table-info">Procesador AMD RYZEN 5 5600x</th>
-          <th class="table-info">10 En Stock</th>
-          <th class="table-info">$6500</th>
-          <th class="table-info"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-        </tr>
-        <tr>
-          <th class="table-info">Fuente de poder Corsair 500w Bronze plus</th>
-          <th class="table-info">30 En Stock</th>
-          <th class="table-info">A cotizacion</th>
-          <th class="table-info"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-        </tr>
-  </table>
-</div>
+    <div class="jumbotron">
+		<h1>PRECIOS</h1>
+		<div class="container">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Precios</li>
+				</ol>
+			</nav>
+      <ul class="nav nav-pills" id="myTab" role="tablist">
+        				<li class="nav-item">
+          				<a class="nav-link active" id="tabla-tab" data-bs-toggle="pill" href="#tabla" role="tab"
+          				aria-controls="tabla" aria-selected="true"> Tabla Precios</a>
+        				</li>
+        				<li class="nav-item">
+          				<a class="nav-link" id="tarjetas-tab" data-bs-toggle="pill" href="#tarjetas" role="tab"
+          				aria-controls="tarjetas" aria-selected="false">Tarjetas Aceptadas</a>
+        				</li>
+        				<li class="nav-item">
+          				<a class="nav-link" id="comentarios-tab" data-bs-toggle="pill" href="#comentarios" role="tab"
+          				aria-controls="comentarios" aria-selected="false">Comentarios</a>
+        				</li>
+      			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="tabla" role="tabpanel" aria-labelledby="tabla-tab">
+					<div class="table-responsive">
+	  					<table class="table">
+	    					<thead class="table-dark">
+                  <tr>
+                    <th scope="col">Nombre del componente</th>
+                    <th scope="col">Existencias</th>
+                    <th scope="col">Precios</th>
+                    <th scope="col">Calificacion</th>
+                  </tr>
+                  </thead>
+                    <tr>
+                      <th class="table-primary">motherboard Asus prime b450m-a</th>
+                      <th class="table-primary">4 En Stock</th>
+                      <th class="table-primary">A cotizacion</th>
+                      <th class="table-primary"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                    </tr>
+                    <tr>
+                      <th class="table-info">Procesador AMD RYZEN 5 5600x</th>
+                      <th class="table-info">10 En Stock</th>
+                      <th class="table-info">$6500</th>
+                      <th class="table-info"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                    </tr>
+                    <tr>
+                      <th class="table-info">Fuente de poder Corsair 500w Bronze plus</th>
+                      <th class="table-info">30 En Stock</th>
+                      <th class="table-info">A cotizacion</th>
+                      <th class="table-info"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                    </tr>
+		  				</table>
+					</div>
+				</div>
 
+				<div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+					<div class="d-flex justify-content-center">
+						<div class="card" style="width: 18rem;">
+							<div class="card-header" style="background-color: blue; color: white;">
+								Tarjetas aceptadas
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">BBVA</li>
+								<li class="list-group-item">Bancomer</li>
+								<li class="list-group-item">Santander</li>
+								<li class="list-group-item">American Express</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+					Comentarios:
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <footer class="footer">
   <div class="row">
     <div class="col-sm">
