@@ -89,25 +89,35 @@
 				</div>
 
 				<div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-					<div class="d-flex justify-content-center">
-						<div class="card" style="width: 18rem;">
-							<div class="card-header" style="background-color: blue; color: white;">
-								Tarjetas aceptadas
-							</div>
-							<ul class="list-group list-group-flush">
-								<li class="list-group-item">BBVA</li>
-								<li class="list-group-item">Bancomer</li>
-								<li class="list-group-item">Santander</li>
-								<li class="list-group-item">American Express</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
-					Comentarios:
-				</div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Tarjeta Credito
+              </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Se agrega un cargo del 10% en la compra de cualquier equipo</div>
+              </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Tarjeta Debito
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Se pueden aplicar cupones de descuento en la compra de cualquier equipo</div>
+                </div>
+              </div>
+          </div>
 			</div>
+
 		</div>
 	</div>
 </div>
